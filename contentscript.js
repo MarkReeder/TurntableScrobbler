@@ -71,7 +71,7 @@ function check_for_authentication() {
 	} else {
 		console.log("Found authentication token.  Moving on.");
 				
-		setInterval("checkForChange()",5000);
+		setInterval("checkForChange()",1000);
 		lastfm_token = localStorage["lastfm_token"];
 		lastfm_session_token = localStorage["lastfm-session-token"];
 	}
