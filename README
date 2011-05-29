@@ -1,0 +1,9 @@
+This is a Chrome extension that will allow you to scrobble to Last.FM what is being played on the social DJ service Turntable.FM.
+
+* Install it
+* Authenticate to Last.FM
+* Reload your Turntable.FM browser tab (I'll fix this soon if people actually use this)
+
+Note: There's currently no handling of errors on Last.FM's side.
+
+Enjoy your DJ'ing!
