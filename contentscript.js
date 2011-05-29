@@ -47,7 +47,8 @@ function checkForChange() {
 
 function get_authenticated() {
 	var method = 'POST';
-  	var url = 'http://www.last.fm/api/auth/?api_key='+api_key+"&cb=chrome-extension://effmiphbidabanjpjbepbfnflghpaill/authenticate.html";
+	var callback = chrome.extension.getURL("authenticate.html");
+  	var url = 'http://www.last.fm/api/auth/?api_key='+api_key+"&cb="+callback;
 
 	javascript:window.open(url);
 }
