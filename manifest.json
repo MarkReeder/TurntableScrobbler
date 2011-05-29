@@ -1,0 +1,15 @@
+{
+  "name": "TurntableScrobble",
+  "version": "1.0",
+  "description": "Scrobble what you're listening to on Turntable.fm.",
+  "background_page": "background.html",
+  "permissions": [
+    "http://ws.audioscrobbler.com/*",
+	"tabs"
+  ],
+	"content_scripts": [ {
+  		"matches": ["http://turntable.fm/*"],
+  		"js": ["contentscript.js"]
+	} 
+	]
+}
